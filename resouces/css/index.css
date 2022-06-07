@@ -1,0 +1,144 @@
+body{
+    background-color: #000;
+}
+
+p, a, h2, h4{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff5ee;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.header{
+    border-bottom: 1px solid #fff5ee;
+    height: 69px;
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+    top: 0;
+}
+
+ul {
+    list-style: none;
+    overflow: hidden;
+    float: right;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+li a {  
+    text-align: center;
+    text-decoration: underline;
+    padding-right: 10px;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.mission {
+    height: 700px;
+    background-image: url(../images/mission-background.webp);
+    background-repeat: no-repeat;
+    margin-top: 69px;
+    background-position-x: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.missionText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+}
+
+
+.month {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.question {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.berryTea, .rumTea, .donut, .aveTea, .bizarreTea {
+    text-align: center;
+}
+
+.berryTea img, .rumTea img, .donut img, .aveTea img, .bizarreTea img{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+.location {
+    height: 600px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 69px;
+    padding-bottom: 20px;
+    background-image: url(../images/locations-background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+
+.h2location {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+}
+
+.downtown, .bayside, .oakdale {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 300px;
+    max-width: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer {
+    margin-top: 60px;
+    height: 200px;
+    text-align: center;
+}
+
+footer p {
+    text-align: left;
+    margin-left: 20px;
+}

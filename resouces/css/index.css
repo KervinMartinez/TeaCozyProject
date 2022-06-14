@@ -21,6 +21,7 @@ h2{
     width: 100%;
     background-color: #000;
     top: 0;
+    overflow: hidden;
 }
 
 ul {
@@ -49,23 +50,19 @@ li a {
 
 .mission {
     height: 700px;
+    margin-top: 69px;
     background-image: url(../images/mission-background.webp);
     background-repeat: no-repeat;
-    margin-top: 69px;
     background-position-x: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .missionText {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
+    text-align: center;
 }
 
 
@@ -98,39 +95,36 @@ li a {
 }
 
 .location {
-    height: 600px;
-    max-width: 1200px;
-    margin: 0 auto;
+    min-height: 600px;
     margin-top: 69px;
     padding-bottom: 20px;
     background-image: url(../images/locations-background.webp);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position-x: center;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .h2location {
     text-align: center;
+}
+
+.address {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    width: 900px;
+    align-items:stretch;
 }
 
 .downtown, .bayside, .oakdale {
     background-color: rgba(0, 0, 0, 0.7);
-    height: 300px;
-    max-width: 300px;
     margin-right: 20px;
     margin-left: 20px;
     text-align: center;
     line-height: 3;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
+    word-spacing: 10px;
+    flex-basis: 300px;
 }
 
 footer {
